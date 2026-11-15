@@ -271,11 +271,6 @@ Users should avoid entering sensitive personal information unless appropriate pr
 
 ---
 
-## 👨‍💻 Author
-
-**Gaurav Yadav**
-
-Computer Science Engineering Student
 
 GitHub: [GauravYadav06](https://github.com/GauravYadav06)
 
