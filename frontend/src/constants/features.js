@@ -32,21 +32,21 @@ export const CATEGORICAL_OPTIONS = {
 };
 
 export const INITIAL_VALUES = {
-  // Numerical features
-  Study_Hours: 3.5,
-  Age: 21,
-  Avg_Daily_Usage_Hours: 4.2,
-  Daily_Unlocks: 140,
-  Physical_Activity_Hours: 1.8,
-  Sleep_Hours_Per_Night: 7.2,
+  // Numerical features (empty so inputs display placeholders)
+  Study_Hours: '',
+  Age: '',
+  Avg_Daily_Usage_Hours: '',
+  Daily_Unlocks: '',
+  Physical_Activity_Hours: '',
+  Sleep_Hours_Per_Night: '',
 
-  // Categorical features
-  Stress_Level: 'Medium',
-  Gender: 'Female',
-  Academic_Level: 'Undergraduate',
-  Most_Used_Platform: 'Instagram',
-  Purpose_Of_Use: 'Entertainment',
-  Grouped_Country: 'India',
+  // Categorical features (empty so dropdowns display "Select...")
+  Stress_Level: '',
+  Gender: '',
+  Academic_Level: '',
+  Most_Used_Platform: '',
+  Purpose_Of_Use: '',
+  Grouped_Country: '',
 };
 
 export const SAMPLE_PRESETS = [

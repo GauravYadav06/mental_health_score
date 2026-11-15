@@ -47,6 +47,16 @@ export default function App() {
   };
 
   const handleStartAssessment = () => {
+    setFormData(INITIAL_VALUES);
+    setError(null);
+    navigateTo('assessment');
+  };
+
+  const handleRetakeAssessment = () => {
+    setFormData(INITIAL_VALUES);
+    setPrediction(null);
+    setSubmittedInput(null);
+    setError(null);
     navigateTo('assessment');
   };
 
@@ -138,7 +148,7 @@ export default function App() {
           <Results
             prediction={prediction}
             inputData={submittedInput}
-            onRetakeAssessment={() => navigateTo('assessment')}
+            onRetakeAssessment={handleRetakeAssessment}
             onGoHome={() => navigateTo('home')}
             onGoInsights={() => navigateTo('insights')}
           />
@@ -148,7 +158,7 @@ export default function App() {
           <Insights
             prediction={prediction}
             inputData={submittedInput}
-            onStartAssessment={() => navigateTo('assessment')}
+            onStartAssessment={handleStartAssessment}
           />
         )}
 
