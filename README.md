@@ -1,5 +1,12 @@
 ﻿# 🧠 AuraMind — AI-Powered Mental Health Predictor
 
+
+ 🌐 Live Website: https://aura-mind-fwk9.onrender.com
+
+⚙️ Backend API: https://mental-health-score-k9li.onrender.com
+
+📖 API Documentation: https://mental-health-score-k9li.onrender.com/docs
+
 **Understand Your Digital Habits. Discover Your Mental Wellness.**
 
 AuraMind is a full-stack machine learning web application designed to predict a user's mental health score based on lifestyle, academic, and social media usage patterns.
