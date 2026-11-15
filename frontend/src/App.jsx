@@ -8,7 +8,7 @@ import Insights from './pages/Insights';
 import About from './pages/About';
 import { INITIAL_VALUES } from './constants/features';
 
-const API_BASE_URL = 'http://127.0.0.1:8000';
+const API_BASE_URL = 'https://mental-health-score-k9li.onrender.com';
 
 export default function App() {
   const [activePage, setActivePage] = useState('home');
@@ -108,7 +108,7 @@ export default function App() {
       navigateTo('results');
     } catch (err) {
       setError(
-        err.message || 'Unable to connect to the prediction API. Ensure FastAPI is running on http://127.0.0.1:8000.'
+        err.message || 'Unable to connect to the prediction API. Ensure FastAPI is running on https://mental-health-score-k9li.onrender.com.'
       );
     } finally {
       setLoading(false);
@@ -172,3 +172,4 @@ export default function App() {
     </div>
   );
 }
+

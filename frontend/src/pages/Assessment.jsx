@@ -865,7 +865,7 @@ export default function Assessment({ formData, setFormData, onSubmit, loading, e
                     <h4 className="font-semibold text-rose-800">Connection Error</h4>
                     <p className="mt-0.5">{error}</p>
                     <p className="mt-1 text-[10px] text-rose-600">
-                      Verify that your FastAPI backend is running on <code>http://127.0.0.1:8000</code>.
+                      Verify that your FastAPI backend is running on <code>https://mental-health-score-k9li.onrender.com</code>.
                     </p>
                   </div>
                 </div>
@@ -983,3 +983,4 @@ export default function Assessment({ formData, setFormData, onSubmit, loading, e
     </div>
   );
 }
+
